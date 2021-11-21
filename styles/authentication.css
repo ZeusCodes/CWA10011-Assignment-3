@@ -1,0 +1,199 @@
+/* Authentication Pages */
+.auth-content {
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  border-radius: 40px 0 0 40px;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.auth-content form div {
+  margin-bottom: 10px;
+}
+
+.auth-content form p {
+  text-align: center;
+}
+
+.auth-content form p a {
+  text-decoration: underline;
+}
+
+.login-now{
+  width: 45%;
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+  top: -22%;
+  right: 25%;
+}
+
+.join-now {
+  width: 45%;
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+  top: -25%;
+  right: 25%;
+}
+
+.join-now p,.login-now p{
+  color: white;
+}
+
+.join-now h3,.login-now h3{
+  font-family: 'Candal', serif;
+  color: #F8F0DF;
+  margin: 5px;
+}
+
+.AboutBtn, .registerBtn{
+  padding: .5rem 1rem;
+  background: #FAF1E6;
+  color: #000;
+  border: 1px solid transparent;
+  border-radius: 10%;
+  font-size: 1.08em;
+  font-family: 'Lora', serif;
+}
+
+.dashboardBlank{
+  height: 115%;
+}
+
+.registerBlank{
+    height: 50%;
+}
+
+.loginBlank{
+  height: 35%;
+}
+
+/* Dashboard Styles */
+.searchDashboard{
+  width: 50%;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(#FFEFBC, #FFADAD) !important;
+  border-radius: 5px;
+  position: absolute;
+  left: 25%;
+  border-radius: 35px 30px 30px 35px;
+}
+
+.searchDashboard form div {
+  margin-bottom: 10px;
+}
+
+/* Form Submitted Confirmation */
+.FormSubmitted {
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  border-radius: 40px 0 0 40px;
+}
+
+/* In General Styles */
+* {
+  box-sizing: border-box
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(#FF865E, #FF5C58) !important;
+  font-family: 'Lora', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Candal', serif;
+  color: #5c5b5b;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  background: #006669;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  font-size: 1.08em;
+  font-family: 'Lora', serif;
+}
+
+.btn-big {
+  padding: .7rem 1.3rem;
+  line-height: 1.3rem;
+}
+
+.btn:hover {
+  color: white !important;
+  background: #005255;
+}
+  
+  .text-input {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #444;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: 'Lora', serif;
+  }
+  
+  .msg {
+    width: 100%;
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  
+  .success {
+    color: #3a6e3a;
+    border: 1px solid #3a6e3a;
+    background: #bcf5bc;
+  }
+  
+  .error {
+    color: #884b4b;
+    border: 1px solid #884b4b;
+    background: #f5bcbc;
+  }
+  
